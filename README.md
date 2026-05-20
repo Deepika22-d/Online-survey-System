@@ -1,33 +1,80 @@
 # 🌟 Online Survey System
 
-An interactive and user-friendly **Online Survey System** developed using **Java Swing** and **MySQL**.  
-This project allows users to submit their feedback and ratings through a beautiful GUI interface, and all responses are securely stored in a MySQL database.
+## 📌 Project Overview
+
+The **Online Survey System** is a desktop-based application developed using **Java Swing** and **MySQL**.  
+This project is designed to collect user feedback efficiently through an attractive and interactive graphical user interface.
+
+Users can enter their name, provide ratings, and submit feedback.  
+All submitted responses are automatically stored in a MySQL database using JDBC connectivity.
+
+The system also includes additional functionalities such as viewing responses, automatic timestamp storage, form validation, clear/reset options, and a thank you confirmation page.
+
+This project demonstrates the practical implementation of:
+- Java GUI development
+- Database connectivity
+- CRUD operations
+- Event handling
+- User interaction design
 
 ---
 
-# ✨ Features
+# 🎯 Objectives of the Project
 
-✅ Attractive Java Swing GUI  
-✅ MySQL Database Connectivity  
-✅ Feedback & Rating System  
-✅ Automatic Data Storage  
-✅ Thank You Confirmation Page  
-✅ View Responses using JTable  
-✅ Clear Form Option  
-✅ Date & Time Storage  
-✅ User-Friendly Interface  
+✅ To develop a user-friendly survey application  
+✅ To store user responses securely in a database  
+✅ To understand Java Swing GUI concepts  
+✅ To implement JDBC connectivity with MySQL  
+✅ To improve user interaction through graphical interfaces  
+✅ To perform database insertion and retrieval operations  
+
+---
+
+# ✨ Main Features
+
+## 🔹 Attractive Graphical User Interface
+The project uses Java Swing components with customized colors, fonts, layouts, and buttons to create an attractive user interface.
+
+## 🔹 Feedback Collection System
+Users can submit:
+- Name
+- Rating
+- Feedback comments
+
+## 🔹 Rating System
+A slider-based rating system allows users to provide ratings from 0 to 5.
+
+## 🔹 Automatic Data Storage
+All survey responses are automatically stored in the MySQL database.
+
+## 🔹 Thank You Page
+After successful submission, users are redirected to a Thank You page.
+
+## 🔹 View Responses
+The admin/user can view all stored responses in a JTable format.
+
+## 🔹 Date & Time Storage
+Each response stores the exact submission date and time automatically.
+
+## 🔹 Clear Button
+Allows users to reset all fields instantly.
+
+## 🔹 Database Connectivity
+Uses JDBC Driver for establishing communication between Java application and MySQL database.
 
 ---
 
 # 🛠️ Technologies Used
 
-| Technology | Description |
+| Technology | Purpose |
 |---|---|
 | ☕ Java | Core Programming Language |
-| 🎨 Java Swing | GUI Design |
+| 🎨 Java Swing | GUI Development |
 | 🗄️ MySQL | Database Management |
 | 🔌 JDBC | Database Connectivity |
-| 💻 Eclipse IDE | Development Environment |
+| 💻 Eclipse IDE | Code Development |
+| 🧾 JTable | Display Responses |
+| 📅 Timestamp | Date & Time Storage |
 
 ---
 
@@ -39,4 +86,5 @@ onlinesurveysystem
 ├── SurveyForm.java
 ├── DBConnection.java
 ├── ThankYouPage.java
-└── ViewResponses.java
+├── ViewResponses.java
+└── MySQL Database
